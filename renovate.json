@@ -1,4 +1,7 @@
 {
+ "vulnerabilityAlerts": {
+    "enabled": false
+ },
  "packageRules": [
    {"packagePatterns": ["*"], "enabled": false},
    {
