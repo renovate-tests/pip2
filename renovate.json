@@ -1,0 +1,21 @@
+{
+ "packageRules": [
+   {"packagePatterns": ["*"], "enabled": false},
+   {
+     "datasources": ["pypi"],
+     "packageNames": ["aioxmpp"],
+     "matchCurrentVersion": "< 10.0.3",
+     "allowedVersions": "==10.0.3",
+     "vulnerabilityAlert": true,
+     "enabled": true,
+     "groupName": null,
+     "schedule": [],
+     "masterIssueApproval": false,
+     "commitMessageSuffix": "[SECURITY]",
+     "labels": ["security fix"],
+     "prBodyNotes": [
+       "By merging this PR, the below issues will be automatically resolved and closed:\n\n| Severity           | <a href=\"#\"><img src='https://whitesource-resources.whitesourcesoftware.com/cvss3.png' width=19 height=20></a> CVSS Score       |CVE  | GitHub Issue |\n| ------------- |-------------|-----|-----|\n| <a href=\"#\"><img src='https://whitesource-resources.whitesourcesoftware.com/high_vul.png' width=19 height=20></a> High | 7.4 | [CVE-2019-1000007](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1000007) | Fixes #201 |\n"
+     ]
+   }
+ ]
+}
