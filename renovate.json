@@ -7,7 +7,7 @@
    {
      "datasources": ["pypi"],
      "packageNames": ["aioxmpp"],
-     "matchCurrentVersion": "< 10.0.3",
+     "matchCurrentVersion": "< 0.10.3",
      "allowedVersions": "==0.10.3",
      "vulnerabilityAlert": true,
      "enabled": true,
