@@ -1,1 +1,1 @@
-aioxmpp==0.10.0
+aioxmpp==0.10.3
